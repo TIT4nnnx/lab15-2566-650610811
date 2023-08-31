@@ -75,7 +75,7 @@ const schema = z
     },
     {
       message: "Password does not match",
-      path: ["password"],
+      path: ["confirmPassword"],
     }
   )
 
